@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* ----------- login access code ------------- */
+
+/* .login-access-code {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: 
+  linear-gradient(90deg, rgba(36, 44, 17, 0.8), rgba(36, 44, 17, 0.8)),
+      url('D:/xotem_techonologies/DEV_REACT_JS/yearbook-frontend/src/Login/Images/children-group-with-blackboard.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+} */
+
+.login-access-code {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: 
+  linear-gradient(90deg, rgba(36, 44, 17, 0.8), rgba(36, 44, 17, 0.8)),
+      url('D:/xotem_techonologies/DEV_REACT_JS/yearbook-frontend/src/Login/Images/children-group-with-blackboard.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.login-access-code-container {
+  background-color: rgba(59, 186, 52, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center; /* Align text to the left */
+  margin-left: 450px; /* Adjust the left margin as needed */
+}
+.login-access-code-container img {
+  width: 200px;
+  margin-bottom: 20px;
+  
+  
+}
+.login-access-code-container h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.login-access-code-container p {
+  margin: 20px 0;
+  font-size: 1.8em;
+}
+.login-access-code-container input[type="text"] {
+  width: 250px;;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px; 
+}
+.login-access-code-container button {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.login-access-code-container button:hover {
+  background-color: #FFC700;
+}
+
+
+/* ----------- login email / number ------------- */
+
+.login-email-number {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #3BBA34;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-email-number-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+.login-email-number-container img {
+  width: 200px;  /* Adjust width as needed */
+  height: 200px;  /* Set height equal to width for a circle */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: #3BBA34;
+}
+
+.login-email-number-container p {
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: black;
+  text-align: left;
+}
+
+.login-email-number-container input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.login-email-number-container button {
+  padding: 15px 30px;
+  background-color: #3BBA34;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  color: white;
+  cursor: pointer;
+}
+
+.login-email-number-container button:hover {
+  background-color: #FFC700;
+}
